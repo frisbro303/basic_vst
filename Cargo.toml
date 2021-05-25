@@ -1,0 +1,11 @@
+[package]
+name = "basic_vst"
+version = "0.0.1"
+authors = ["Author <author@example.com>"]
+
+[dependencies]
+vst = { git = "https://github.com/rustaudio/vst-rs" }
+
+[lib]
+name = "basicvst"
+crate-type = ["cdylib"]
